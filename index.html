@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ateliê da Rose - Loja online de roupas femininas e masculinas">
+    <title>Ateliê da Rose</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;600&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Ateliê da Rose</a>
+            </div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#masculino">Masculino</a></li>
+                <li><a href="#feminino">Feminino</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="search-cart">
+                <input type="text" placeholder="Buscar...">
+                <a href="#cart" class="cart-icon" id="cart-icon">🛒</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1>Explore o melhor do estilo e elegância</h1>
+            <p>Roupas femininas e masculinas que encantam.</p>
+            <a href="#feminino" class="btn-cta">Ver Coleções</a>
+        </div>
+    </section>
+
+    <!-- Categorias -->
+    <section id="categorias">
+        <div class="category" id="masculino">
+            <h2>Masculino</h2>
+            <div class="category-items">
+                <div class="category-item">
+                    <img src="product1.jpg" alt="Camiseta Masculina">
+                    <p>Camiseta Masculina</p>
+                    <button class="add-to-cart">Adicionar ao carrinho</button>
+                </div>
+                <div class="category-item">
+                    <img src="product2.jpg" alt="Conjunto Masculino">
+                    <p>Conjunto Masculino</p>
+                    <button class="add-to-cart">Adicionar ao carrinho</button>
+                </div>
+                <!-- Adicionar mais produtos -->
+            </div>
+        </div>
+
+        <div class="category" id="feminino">
+            <h2>Feminino</h2>
+            <div class="category-items">
+                <div class="category-item">
+                    <img src="product3.jpg" alt="Conjunto Feminino">
+                    <p>Conjunto Feminino</p>
+                    <button class="add-to-cart">Adicionar ao carrinho</button>
+                </div>
+                <div class="category-item">
+                    <img src="product4.jpg" alt="Saia Feminina">
+                    <p>Saia Feminina</p>
+                    <button class="add-to-cart">Adicionar ao carrinho</button>
+                </div>
+                <!-- Adicionar mais produtos -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu email" required>
+            <textarea placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Ateliê da Rose | Todos os direitos reservados</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
